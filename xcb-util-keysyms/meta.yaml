@@ -1,0 +1,25 @@
+package:
+  name: xcb-util-keysyms
+  version: 0.4.0
+
+source:
+  fn: xcb-util-keysyms-0.4.0.tar.bz2
+  url: http://xcb.freedesktop.org/dist/xcb-util-keysyms-0.4.0.tar.bz2
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - libxcb ==1.11
+    - libpthread-stubs
+    - xproto
+ 
+  run: 
+    - libxcb ==1.11
+    - libpthread-stubs
+    - xproto
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

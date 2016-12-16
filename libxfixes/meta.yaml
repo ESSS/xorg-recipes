@@ -1,0 +1,27 @@
+package:
+  name: libxfixes
+  version: 5.0
+
+source:
+  fn: libXfixes-5.0.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/lib/libXfixes-5.0.tar.bz2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - libx11 ==1.5.0
+    - fixesproto ==5.0
+    - xproto ==7.0.23
+    - xextproto ==7.2.1
+ 
+  run: 
+    - libx11 ==1.5.0
+    - fixesproto ==5.0
+    - xproto ==7.0.23
+    - xextproto ==7.2.1
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

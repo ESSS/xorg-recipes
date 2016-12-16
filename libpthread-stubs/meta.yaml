@@ -1,0 +1,21 @@
+package:
+  name: libpthread-stubs
+  version: 0.3
+
+source:
+  fn: libpthread-stubs-0.3.tar.bz2
+  url: http://xcb.freedesktop.org/dist/libpthread-stubs-0.3.tar.bz2
+
+build:
+  number: 0
+
+#requirements: 
+#  build: 
+#    - python 
+ 
+#  run: 
+#    - python
+
+#about:
+#  home: http://www.hdfgroup.org/HDF5/
+#  license: BSD-style (http://www.hdfgroup.org/ftp/HDF5/current/src/unpacked/COPYING)

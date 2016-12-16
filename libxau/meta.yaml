@@ -1,0 +1,21 @@
+package:
+  name: libxau
+  version: 1.0.7
+
+source:
+  fn: libXau-1.0.7.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/lib/libXau-1.0.7.tar.bz2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - xproto ==7.0.23
+ 
+  run:
+    - xproto ==7.0.23
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

@@ -1,0 +1,29 @@
+package:
+  name: libxfont
+  version: 1.4.5
+
+source:
+  fn: libXfont-1.4.5.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/lib/libXfont-1.4.5.tar.bz2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - freetype ==2.4.9
+    - fontsproto ==2.1.2
+    - xproto ==7.0.23
+    - libfontenc ==1.1.1
+    - xtrans ==1.2.7
+
+  run:
+    - freetype ==2.4.9
+    - fontsproto ==2.1.2
+    - xproto ==7.0.23
+    - libfontenc ==1.1.1
+    - xtrans ==1.2.7
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

@@ -1,0 +1,27 @@
+package:
+  name: xcb-util-image
+  version: 0.4.0
+
+source:
+  fn: xcb-util-image-0.4.0.tar.bz2
+  url: http://xcb.freedesktop.org/dist/xcb-util-image-0.4.0.tar.bz2
+
+build:
+  number: 1
+
+requirements: 
+  build: 
+    - libxcb ==1.11
+    - libpthread-stubs
+    - xproto
+    - xcb-util
+ 
+  run: 
+    - libxcb ==1.11
+    - libpthread-stubs
+    - xproto
+    - xcb-util
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

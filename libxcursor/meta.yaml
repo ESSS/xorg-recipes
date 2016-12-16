@@ -1,0 +1,26 @@
+package:
+  name: libxcursor
+  version: 1.1.13
+
+source:
+  fn: libXcursor-1.1.13.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/lib/libXcursor-1.1.13.tar.bz2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - fixesproto ==5.0
+    - libx11 ==1.5.0
+    - libxfixes ==5.0
+    - libxrender ==0.9.7
+  run:
+    - fixesproto ==5.0
+    - libx11 ==1.5.0
+    - libxfixes ==5.0
+    - libxrender ==0.9.7
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

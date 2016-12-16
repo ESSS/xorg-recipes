@@ -1,0 +1,21 @@
+package:
+  name: xcb-proto
+  version: 1.11
+
+source:
+  fn: xcb-proto-1.11.tar.bz2
+  url: http://xcb.freedesktop.org/dist/xcb-proto-1.11.tar.bz2
+
+build:
+  number: 1
+
+requirements: 
+  build: 
+    - python 
+ 
+  run: 
+    - python
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

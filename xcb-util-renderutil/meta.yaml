@@ -1,0 +1,23 @@
+package:
+  name: xcb-util-renderutil
+  version: 0.3.9
+
+source:
+  fn: xcb-util-renderutil-0.3.9.tar.bz2
+  url: http://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.9.tar.bz2
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - libxcb ==1.11
+    - libpthread-stubs
+ 
+  run: 
+    - libxcb ==1.11
+    - libpthread-stubs
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

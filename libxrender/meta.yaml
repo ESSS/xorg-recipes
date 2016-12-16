@@ -1,0 +1,22 @@
+package:
+  name: libxrender
+  version: 0.9.7
+
+source:
+  fn: libXrender-0.9.7.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/lib/libXrender-0.9.7.tar.bz2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - renderproto ==0.11.1
+    - libx11 ==1.5.0
+  run: 
+    - renderproto ==0.11.1
+    - libx11 ==1.5.0
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

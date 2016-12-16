@@ -1,0 +1,14 @@
+package:
+  name: libpciaccess
+  version: 0.13.1
+
+source:
+  fn: libpciaccess-0.13.1.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/lib/libpciaccess-0.13.1.tar.bz2
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

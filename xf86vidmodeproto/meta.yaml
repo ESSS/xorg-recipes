@@ -1,0 +1,14 @@
+package:
+  name: xf86vidmodeproto
+  version: 2.3.1
+
+source:
+  fn: xf86vidmodeproto-2.3.1.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/proto/xf86vidmodeproto-2.3.1.tar.bz2
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

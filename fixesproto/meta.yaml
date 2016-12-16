@@ -1,0 +1,14 @@
+package:
+  name: fixesproto
+  version: 5.0
+
+source:
+  fn: fixesproto-5.0.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/proto/fixesproto-5.0.tar.bz2
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

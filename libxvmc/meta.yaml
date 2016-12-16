@@ -1,0 +1,27 @@
+package:
+  name: libxvmc
+  version: 1.0.7
+
+source:
+  fn: libXvMC-1.0.7.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/lib/libXvMC-1.0.7.tar.bz2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - libx11 ==1.5.0
+    - libxext ==1.3.1
+    - libxi ==1.6.1
+    - libxv ==1.0.7
+
+  run:
+    - libx11 ==1.5.0
+    - libxext ==1.3.1
+    - libxi ==1.6.1
+    - libxv ==1.0.7
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

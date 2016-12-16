@@ -1,0 +1,20 @@
+package:
+  name: libsm
+  version: 1.2.1
+
+source:
+  fn: libSM-1.2.1.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/lib/libSM-1.2.1.tar.bz2
+
+build:
+  number: 0
+
+requirements: 
+  build: 
+    - libice ==1.0.8
+  run: 
+    - libice ==1.0.8
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

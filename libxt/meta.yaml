@@ -1,0 +1,29 @@
+package:
+  name: libxt
+  version: 1.1.3
+
+source:
+  fn: libXt-1.1.3.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/lib/libXt-1.1.3.tar.bz2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - xproto ==7.0.23
+    - libice ==1.0.8
+    - libpciaccess ==0.13.1
+    - libsm ==1.2.1
+    - libx11 ==1.5.0
+
+  run:
+    - xproto ==7.0.23
+    - libice ==1.0.8
+    - libpciaccess ==0.13.1
+    - libsm ==1.2.1
+    - libx11 ==1.5.0
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

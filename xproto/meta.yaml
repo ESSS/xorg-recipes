@@ -1,0 +1,14 @@
+package:
+  name: xproto
+  version: 7.0.23
+
+source:
+  fn: xproto-7.0.23.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/proto/xproto-7.0.23.tar.bz2
+
+build:
+  number: 1
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

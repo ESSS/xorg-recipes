@@ -1,0 +1,14 @@
+package:
+  name: fontsproto
+  version: 2.1.2
+
+source:
+  fn: fontsproto-2.1.2.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/proto/fontsproto-2.1.2.tar.bz2
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

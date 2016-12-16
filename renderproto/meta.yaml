@@ -1,0 +1,14 @@
+package:
+  name: renderproto
+  version: 0.11.1
+
+source:
+  fn: renderproto-0.11.1.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/proto/renderproto-0.11.1.tar.bz2
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

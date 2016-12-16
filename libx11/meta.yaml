@@ -1,0 +1,33 @@
+package:
+  name: libx11
+  version: 1.5.0
+
+source:
+  fn: libX11-1.5.0.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/lib/libX11-1.5.0.tar.bz2
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - inputproto ==2.2
+    - kbproto ==1.0.6
+    - xextproto ==7.2.1
+    - xproto ==7.0.23
+    - libxcb ==1.11
+    - libpthread-stubs
+    - xtrans ==1.2.7
+
+  run:
+    - inputproto ==2.2
+    - kbproto ==1.0.6
+    - xextproto ==7.2.1
+    - xproto ==7.0.23
+    - libxcb ==1.11
+    - libpthread-stubs
+    - xtrans ==1.2.7
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License

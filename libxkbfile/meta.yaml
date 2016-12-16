@@ -1,0 +1,21 @@
+package:
+  name: libxkbfile
+  version: 1.0.8
+
+source:
+  fn: libxkbfile-1.0.8.tar.bz2
+  url: http://xorg.mirrors.pair.com/X11R7.7/src/lib/libxkbfile-1.0.8.tar.bz2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - libx11 ==1.5.0
+
+  run:
+    - libx11 ==1.5.0
+
+about:
+  home: http://www.x.org/archive/X11R7.7
+  license: MIT License
