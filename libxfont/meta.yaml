@@ -11,14 +11,14 @@ build:
 
 requirements:
   build:
-    - freetype ==2.4.9
+    - freetype 2.6.*
     - fontsproto ==2.1.2
     - xproto ==7.0.23
     - libfontenc ==1.1.1
     - xtrans ==1.2.7
 
   run:
-    - freetype ==2.4.9
+    - freetype 2.6.*
     - fontsproto ==2.1.2
     - xproto ==7.0.23
     - libfontenc ==1.1.1

@@ -12,12 +12,12 @@ build:
 requirements:
   build:
     - fontconfig 2*
-    - freetype ==2.4.9
+    - freetype 2.6.*
     - libxrender ==0.9.7
 
   run:
     - fontconfig 2*
-    - freetype ==2.4.9
+    - freetype 2.6.*
     - libxrender ==0.9.7
 
 about:
